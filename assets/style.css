@@ -1,31 +1,73 @@
-
 /* Styling for page header */
+
 h1 {
-  font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 
 #headerRow {
-  text-align: center;
+    text-align: center;
 }
 
+
 /*Generic visual styling*/
+
 h2, h3, h4, p, body {
-  font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Covered By Your Grace', cursive;
 }
 
 .centerText {
-  text-align: center;
+    text-align: center;
 }
 
 .topBottomMargin {
-  margin-top: 40px;
-  margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
+/*#topSpot, #middleSpot {
+  text-indent: 200px;
+}*/
 
+/* Manually override styling for the start button */
+.centerButton {
+    position: relative;
+    left: 38%;
+    top: 200px;
+    font-size: 28px;
+    line-height: 28px;
+    min-height: 80px;
+    min-width: 250px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+}
 
+/* Apply dope wallpaper to the body */
+body {
+  background: url(images/graffiti.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+/* Apply font sizes */
+#topSpot, #middleSpot, #bottomSpot, .singleResponse, #lowerLeftBox, #lowerRightBox {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 10px 0px 10px 0px;
+}
 
+.taunt {
+  font-size: 36px;
+  line-height: 36px;
+  padding: 10px 0px 10px 0px;
+}
+
+/* Adjust presentation of clock gif */
+#phoneclock {
+  max-height: 100px;
+  border-radius: 100px;
+}
 
 
 /* Google Fonts for reference:
