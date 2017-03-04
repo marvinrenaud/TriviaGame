@@ -24,9 +24,7 @@ h2, h3, h4, p, body {
     margin-bottom: 20px;
 }
 
-/*#topSpot, #middleSpot {
-  text-indent: 200px;
-}*/
+
 
 /* Manually override styling for the start button */
 .centerButton {
@@ -67,6 +65,12 @@ body {
 #phoneclock {
   max-height: 100px;
   border-radius: 100px;
+}
+
+.singleResponse:hover {
+  color: #174bd1;
+  font-size: 38px;
+  line-height: 38px;
 }
 
 
